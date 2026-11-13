@@ -25,6 +25,8 @@ while True:
         elif operation == 'ВЫХОД':
             print('Выход с калькулятора')
             break
+        if a == 0:
+             print("введите другое число!")
 
     
 
