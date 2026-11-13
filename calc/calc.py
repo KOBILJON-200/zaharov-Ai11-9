@@ -17,7 +17,12 @@ while True:
             result = a % b
             print('Деление с остатком:', a, '%', b, '=', result)
         elif operation == '/':
-            result = a / b
+            if b == 0:
+                 print("Введите другое число")
+                 result = "ошибка"
+                 break
+            else:
+                result = a / b
             print('Деление на цело:', a, '/', b, '=', result)
         elif operation == '**':
             result = a ** b
@@ -25,11 +30,3 @@ while True:
         elif operation == 'ВЫХОД':
             print('Выход с калькулятора')
             break
-        if a == 0:
-             print("введите другое число!")
-
-    
-
-
-
-
