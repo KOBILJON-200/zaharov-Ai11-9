@@ -1,0 +1,46 @@
+def welcome():
+    print("Добро пожаловать в учебный центр!")
+
+welcome()
+welcome()
+
+def print_cad(name,group,city,number):
+    print("Имя:", name)
+    print('Группа:', group)
+    print('Город:', city)
+    print('Номер телефона:', number)
+    
+print_cad('жа', 'fa', 'ds','12242141')
+
+def show_separator():
+    print('-' * 30)
+
+def show_menu():
+    show_separator()
+    print('1. Начать игру')
+    print('2. найстройки')
+    print('3. выход')
+    show_separator()
+
+show_menu()
+
+def greet(name):
+    print('Привет ' + name + '!')
+greet("огузок")
+greet('эль дрифто')
+greet('галда')
+
+
+def convert_minutes(minutes):
+    print(minutes // 60, 'часов', minutes % 60, 'минут')
+
+convert_minutes(135)
+
+
+
+def discount(price,percent=10):
+     return price - (price * percent / 100)
+
+print(discount(1000))
+print(discount(1000,25))
+    

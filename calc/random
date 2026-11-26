@@ -1,0 +1,17 @@
+import random
+while True:
+    n = random.randint(1,6)
+    b = random.randint(1,6)
+    total = n + b
+    print(f'Выпало: {n} и {b} (сумма: {total})')
+    if n == b:
+        print("Дубль")
+    elif total == 7 or total == 11:
+        print("Джекпот!")
+    else: 
+        print("обычный ход с суммой total") 
+
+    stop = input("Закончить игру? (yes/no)")
+    if stop == "yes":
+        print('игра закончена')
+        break

@@ -1,0 +1,21 @@
+#import math
+#def calc_sqrt(num):
+#   return math.sqrt(num)
+#print(calc_sqrt(16))
+#def power_of_itself(n):
+ #   return math.pow(n, n)
+#print(power_of_itself(4))
+
+#import math
+#def s_ink(s):
+ #   return math.ceil (s / 2.5)
+#print(s_ink (5.4  ))
+import math
+def pizzas_need(n, k):
+    return math.ceil(n / k)
+print (pizzas_need(12,10))
+
+import math
+def radius(r):
+    radius = 
+    
